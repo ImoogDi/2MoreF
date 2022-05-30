@@ -36,11 +36,11 @@
 >- **Don't solder yet any following parts before alignment to the frontpanel**
 >- fit that snapin-potentiometers P1,P2,P3,P5,P6,P7,P8,P10 and P11 on PCB topside.
 >- fit that snapin-potentiometers P4 and P9 on PCB topside.
->- fit that switches S1,S2 on PCB topside. Must be ON-Off-On type with three positions.
->- fit that switch S4 on PCB topside. Must be ON-On type with two positions.
->- fit that switch S3 on PCB topside. Must be ON-On type with two positions.
->- fit all eleven jacks on PCB topside.  
->- place the **frontpanel** on all of the topside parts and **allign** them.  
+>- fit that switches S1,S2 on PCB topside. Must be ON-OFF-ON type with three positions.
+>- fit that switch S4 on PCB topside. Must be ON-ON type with two positions.
+>- fit that switch S3 on PCB topside. Must be ON-ON type with two positions.
+>- fit all eleven jacks on PCB topside.
+>- place the **frontpanel** on topside parts and **allign** them.
 >- check alignment and distance to the frontpanel, see: [alignment](./pictures/2MoreF_BoardA_FP_alignment.png)
 >- use nuts for the jacks, switches and pots to fix that frontpanel to the PCB-parts.
 >- now solder all parts on backside and make sure everything is still aligned.
@@ -62,14 +62,14 @@
 
 > continue soldering parts on topside of Board B.  
 
->- place all SMD capacitors to the backside and solder them by hand.
+>- place all SMD capacitors to the topside and solder them by hand.
 >- place the two electrolytic capacitors to the topside and solder them.<br> (watch the correct orientation and aligment)
 >- fit the DIL18 sockets to topside and solder them.<br> (watch the correct orientation)
 >- fit the beads Filter1 and Filter2 to topside and solder them.
 >- fit the 16 position, 2 row pin-header K1 to topside and solder it.<br> (watch correct alignment to the silk)
->- fit the 10 position, 2 row pin-header K9 to topsideand solder it.<br> (watch correct alignment to the silk)
+>- fit the 10 position, 2 row pin-header K9 to topside and solder it.<br> (watch correct alignment to the silk)
 >- fit the precision-potentiometers P1,P2,P3 and P4 to topside and solder them.<br> (watch correct alignment to the silk)
->- fit the eight styrene capacitores to topside and solder them.
+>- fit the eight styrene capacitors to topside and solder them.
 >- at least Board B topside should look like this (with AS3320 in sockets): [BoardB topview](./pictures/2MoreF_BoardB_topside.png)
 
 ## First Switchon<a name="firstswitchon"></a>
