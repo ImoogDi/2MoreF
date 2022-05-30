@@ -13,7 +13,7 @@
 ## Introduction<a name="intro"></a>
 
 This eurorack-modul is designed for modular-synthesizers as substractive filter.  
-The dual-filter is build around two of IC: AS3320, a clone of that old CEM3320.  
+The dual-filter is build around two IC's: AS3320, a clone of that old CEM3320.  
 All parts are common available and DIY-friendly designed, most parts are SMD's.
 
 - Modul Frontpanel
@@ -22,7 +22,7 @@ All parts are common available and DIY-friendly designed, most parts are SMD's.
 
 - Modul Backside
 
-![Modul: 2MoreF Backside](./doc/pictures/2MoreF_Backside_Modul.png)
+![Modul: 2MoreF Backside](./doc/pictures/2MoreF_backside_Modul.png)
 
 <br>
 <hr>
@@ -46,7 +46,7 @@ This descriptions are valid for part (1) {left side} and part (2) {right side} o
     <td>IN (2)</td>
     <td>audio-input 2</td>
     <td>Level adjustable between 0 ...  2</td>
-    <td>Switchable input.<br>Parallel with IN (1) or serial from OUT (1)<br> 1||2  or  1 > 2</td>
+    <td>Switchable input.<br>Parallel with IN (1) or <br>serial from OUT (1)<br> 1||2  or  1 > 2</td>
 </tr>
 <tr>
     <td>ResCV (1)</td>
@@ -63,38 +63,38 @@ This descriptions are valid for part (1) {left side} and part (2) {right side} o
 <tr>
     <td>Mod. (1)</td>
     <td>CV-input 1 for modulation control</td>
-    <td>Level adjustable between -  0  +</td>
+    <td>Level adjustable between:<br> -  0  +</td>
     <td></td>
 </tr>
 <tr>
     <td>Mod. (2)</td>
     <td>CV-input 2 for modulation control</td>
-    <td>Level adjustable between -  0  +</td>
+    <td>Level adjustable between:<br> -  0  +</td>
     <td>Mod. Input 2 is normalised to Mod. (1)</td>
 </tr>
 <tr>
     <td>OUT (1)</td>
     <td>audio-output 1 for HP/LP/BP mode<br>(12dB/octave)</td>
     <td>audio-output 1 attached to switch (1)<br> HP := High pass mode<br> LP := Low pass mode<br> BP := Band pass mode</td>
-    <td></td>
+    <td>OUT (1) is normalised to OUT (2)</td>
 </tr>
 <tr>
     <td>OUT (2)</td>
     <td>audio-output 2 for HP/LP/BP mode<br>(12dB/octave)</td>
     <td>audio-output 2 attached to switch (2)<br> HP := High pass mode<br> LP := Low pass mode<br> BP := Band pass mode</td>
-    <td>OUT (2) is normalised to OUT (1)</td>
+    <td>summed OUT (2) and OUT (1), if no patch-cabel is plugged into OUT (1)</td>
 </tr>
 <tr>
     <td>LP24 (1)</td>
     <td>audio-output 1 for LP mode only<br>(24dB/octave)</td>
     <td>Low pass only audio-output with<br>24dB/octave<br>(simultaneously usable with 'OUT (1)')</td>
-    <td></td>
+    <td>LP24 (1) is normalised to LP24 (2)</td>
 </tr>
 <tr>
     <td>LP24 (2)</td>
     <td>audio-output 2 for LP mode only<br>(24dB/octave)</td>
     <td>Low pass only audio-output with<br>24dB/octave<br>(simultaneously usable with 'OUT (2)')</td>
-    <td>LP24 (2) is normalised to LP24 (1)</td>
+    <td>summed LP24 (2) and LP24 (1), if no patch-cabel is plugged into LP24 (1)</td>
 </tr>
 <tr>
     <td>1V/Oct.</td>
@@ -123,7 +123,7 @@ There are eleven potentiometers with following functions:
     <td>Frequency (2)</td>
     <td>Cut-Off frequency 20Hz to 20kHz</td>
     <td>Filter cutoff frequency 2 for part 2 (right filter)<br>range:<br>min := &#60; 20 Hz<br>max := > 20kHz<br>12 o'clock position := 440Hz</td>
-    <td>Switchable to frequency-slave mode locked to Frequency (1)<br>FSync := Slavemode On, else Off</td>
+    <td>Switchable to slave-mode locked to Frequency (1)<br>FSync := Slavemode On, else Off</td>
 </tr>
 <tr>
     <td>Track</td>
@@ -145,13 +145,13 @@ There are eleven potentiometers with following functions:
 <tr>
     <td>IN (1)</td>
     <td>Audio input-level attenuator 1</td>
-    <td>Level adjustable between 0 ... 2 for part 1 (left filter)<br>0 := No audio signal from IN-jack<br>1 := audio signal Out-level is 1 * IN-level<br>2 := audio signal Out-level is 2 * IN-level</td>
+    <td>Level adjustable between 0 ... 2 for part 1 (left filter)<br>0 := No audio signal from IN-jack<br>1 := IN-level amplified 0dB<br>2 := IN-level amplified 6dB</td>
     <td></td>
 </tr>
 <tr>
     <td>IN (2)</td>
     <td>Audio input-level attenuator 2</td>
-    <td>Level adjustable between 0 ... 2 for part 2 (right filter)<br>0 := No audio signal from IN-jack<br>1 := audio signal Out-level is 1 * IN-level<br>2 := audio signal Out-level is 2 * IN-level</td>
+    <td>Level adjustable between 0 ... 2 for part 2 (right filter)<br>0 := No audio signal from IN-jack<br>1 := IN-level amplified 0dB<br>2 := IN-level amplified 6dB</td>
     <td></td>
 </tr>
 <tr>
