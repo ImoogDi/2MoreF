@@ -24,8 +24,7 @@
 >- place the three IC's to the backside. Watch the rigth orientation and alignment.
 >- solder all parts on backside (reflow or by hand).
 >- fit the 20-/16-position, 1 row headers to backside and solder them.
->- don't solder header K8 to backside (option for further extension)
->- at least Board A should look like this [BoardA_backside](./pictures/2MoreF_BoardA_backside.png)
+>- at least Board A should look like this [BoardA_backside (first Rev.: 0.1)](./pictures/2MoreF_BoardA_backside.png)
 
 >### Board A topside [topside-parts](./pictures/2MoreF_BoardA_parts_topside.png)
 
@@ -63,7 +62,7 @@
 > continue soldering parts on topside of Board B.  
 
 >- place all SMD capacitors to the topside and solder them by hand.
->- place the two electrolytic capacitors to the topside and solder them.<br> (watch the correct orientation and aligment)
+>- place the two electrolytic capacitors C5,C6 to the topside and solder them.<br> (watch the correct orientation and aligment)
 >- fit the DIL18 sockets to topside and solder them.<br> (watch the correct orientation)
 >- fit the beads Filter1 and Filter2 to topside and solder them.
 >- fit the 16 position, 2 row pin-header K1 to topside and solder it.<br> (watch correct alignment to the silk)

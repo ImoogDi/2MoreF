@@ -20,6 +20,7 @@ All parts are common available and DIY-friendly designed, most parts are SMD's.
 
 ![Modul: 2MoreF Front](./doc/pictures/2MoreF_Modul.png)
 
+<br>
 - Modul Backside
 
 ![Modul: 2MoreF Backside](./doc/pictures/2MoreF_backside_Modul.png)
